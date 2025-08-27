@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class LoggingAspect {
 
-    @Around("@annotation(LogExecution)") // Совет срабатывает вокруг метода, помеченного @LogExecution
+    @Around("@annotation(LogExecution)") 
     public Object logMethodCall(ProceedingJoinPoint joinPoint) throws Throwable {
         String methodName = joinPoint.getSignature().toShortString();
         Object[] args = joinPoint.getArgs();
@@ -21,7 +21,7 @@ public class LoggingAspect {
         long startTime = System.currentTimeMillis();
         Object result;
         try {
-            result = joinPoint.proceed(); // Выполняем сам метод
+            result = joinPoint.proceed(); 
             long executionTime = System.currentTimeMillis() - startTime;
             log.info("✅ Метод: {} выполнен успешно за {} мс. Результат: {}", methodName, executionTime, result);
             return result;
