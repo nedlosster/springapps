@@ -5,7 +5,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.METHOD) // Аннотация применима к методам
-@Retention(RetentionPolicy.RUNTIME) // Аннотация доступна в runtime
+@Target(ElementType.METHOD) 
+@Retention(RetentionPolicy.RUNTIME)
 public @interface LogExecution {
 }
