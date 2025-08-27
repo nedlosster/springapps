@@ -1,0 +1,202 @@
+2025-08-27 17:22:16,386 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Starting DemoApplication using Java 17.0.7 with PID 11993 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27 17:22:16,387 DEBUG o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 17:22:16,388 INFO o.s.b.SpringApplication [com.example.demo.DemoApplication.main()] No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:22:16,879 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat initialized with port 8080 (http)
+2025-08-27 17:22:16,885 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:22:16,887 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting service [Tomcat]
+2025-08-27 17:22:16,887 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 17:22:16,907 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing Spring embedded WebApplicationContext
+2025-08-27 17:22:16,907 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [com.example.demo.DemoApplication.main()] Root WebApplicationContext: initialization completed in 500 ms
+2025-08-27 17:22:17,176 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:22:17,188 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat started on port 8080 (http) with context path '/'
+2025-08-27 17:22:17,204 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Started DemoApplication in 1.122 seconds (process running for 2.482)
+2025-08-27 17:22:20,650 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27 17:22:20,651 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-27 17:22:20,652 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-08-27 17:22:20,682 INFO c.e.d.UserController [http-nio-8080-exec-1] Received request to create user: testuser
+2025-08-27 17:22:20,682 INFO c.e.d.UserService [http-nio-8080-exec-1] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:22:20,683 DEBUG c.e.d.UserService [http-nio-8080-exec-1] User details validated successfully for: testuser
+2025-08-27 17:22:20,683 INFO c.e.d.UserService [http-nio-8080-exec-1] User created successfully. ID: user_1756315340683, Username: testuser
+2025-08-27 17:22:20,683 INFO c.e.d.UserController [http-nio-8080-exec-1] Request completed successfully for user: testuser
+2025-08-27 17:22:22,027 INFO c.e.d.UserController [http-nio-8080-exec-2] Received request to create user: testuser
+2025-08-27 17:22:22,028 INFO c.e.d.UserService [http-nio-8080-exec-2] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:22:22,029 DEBUG c.e.d.UserService [http-nio-8080-exec-2] User details validated successfully for: testuser
+2025-08-27 17:22:22,030 INFO c.e.d.UserService [http-nio-8080-exec-2] User created successfully. ID: user_1756315342030, Username: testuser
+2025-08-27 17:22:22,030 INFO c.e.d.UserController [http-nio-8080-exec-2] Request completed successfully for user: testuser
+2025-08-27 17:22:22,828 INFO c.e.d.UserController [http-nio-8080-exec-3] Received request to create user: testuser
+2025-08-27 17:22:22,829 INFO c.e.d.UserService [http-nio-8080-exec-3] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:22:22,829 DEBUG c.e.d.UserService [http-nio-8080-exec-3] User details validated successfully for: testuser
+2025-08-27 17:22:22,829 INFO c.e.d.UserService [http-nio-8080-exec-3] User created successfully. ID: user_1756315342829, Username: testuser
+2025-08-27 17:22:22,829 INFO c.e.d.UserController [http-nio-8080-exec-3] Request completed successfully for user: testuser
+2025-08-27 17:23:11,106 INFO c.e.d.UserController [http-nio-8080-exec-4] Received request to create user: testuser
+2025-08-27 17:23:11,107 INFO c.e.d.UserService [http-nio-8080-exec-4] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:23:11,107 DEBUG c.e.d.UserService [http-nio-8080-exec-4] User details validated successfully for: testuser
+2025-08-27 17:23:11,107 INFO c.e.d.UserService [http-nio-8080-exec-4] User created successfully. ID: user_1756315391107, Username: testuser
+2025-08-27 17:23:11,107 INFO c.e.d.UserController [http-nio-8080-exec-4] Request completed successfully for user: testuser
+2025-08-27 17:23:12,132 INFO c.e.d.UserController [http-nio-8080-exec-5] Received request to create user: testuser
+2025-08-27 17:23:12,133 INFO c.e.d.UserService [http-nio-8080-exec-5] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:23:12,133 DEBUG c.e.d.UserService [http-nio-8080-exec-5] User details validated successfully for: testuser
+2025-08-27 17:23:12,133 INFO c.e.d.UserService [http-nio-8080-exec-5] User created successfully. ID: user_1756315392133, Username: testuser
+2025-08-27 17:23:12,133 INFO c.e.d.UserController [http-nio-8080-exec-5] Request completed successfully for user: testuser
+2025-08-27 17:23:12,821 INFO c.e.d.UserController [http-nio-8080-exec-6] Received request to create user: testuser
+2025-08-27 17:23:12,822 INFO c.e.d.UserService [http-nio-8080-exec-6] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:23:12,822 DEBUG c.e.d.UserService [http-nio-8080-exec-6] User details validated successfully for: testuser
+2025-08-27 17:23:12,822 INFO c.e.d.UserService [http-nio-8080-exec-6] User created successfully. ID: user_1756315392822, Username: testuser
+2025-08-27 17:23:12,823 INFO c.e.d.UserController [http-nio-8080-exec-6] Request completed successfully for user: testuser
+2025-08-27 17:23:13,370 INFO c.e.d.UserController [http-nio-8080-exec-7] Received request to create user: testuser
+2025-08-27 17:23:13,371 INFO c.e.d.UserService [http-nio-8080-exec-7] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:23:13,371 DEBUG c.e.d.UserService [http-nio-8080-exec-7] User details validated successfully for: testuser
+2025-08-27 17:23:13,371 INFO c.e.d.UserService [http-nio-8080-exec-7] User created successfully. ID: user_1756315393371, Username: testuser
+2025-08-27 17:23:13,371 INFO c.e.d.UserController [http-nio-8080-exec-7] Request completed successfully for user: testuser
+2025-08-27 17:24:01,375 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 17:24:01,380 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-27 17:24:05,210 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Starting DemoApplication using Java 17.0.7 with PID 13066 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27 17:24:05,211 DEBUG o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 17:24:05,212 INFO o.s.b.SpringApplication [com.example.demo.DemoApplication.main()] No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:24:05,740 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat initialized with port 8080 (http)
+2025-08-27 17:24:05,746 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:24:05,747 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting service [Tomcat]
+2025-08-27 17:24:05,747 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 17:24:05,767 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing Spring embedded WebApplicationContext
+2025-08-27 17:24:05,768 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [com.example.demo.DemoApplication.main()] Root WebApplicationContext: initialization completed in 536 ms
+2025-08-27 17:24:05,965 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:24:05,975 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat started on port 8080 (http) with context path '/'
+2025-08-27 17:24:05,985 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Started DemoApplication in 1.049 seconds (process running for 2.389)
+2025-08-27 17:24:14,455 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27 17:24:14,455 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-27 17:24:14,456 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-08-27 17:24:14,475 INFO c.e.d.UserController [http-nio-8080-exec-1] Received request to create user: testuser
+2025-08-27 17:24:14,475 INFO c.e.d.UserService [http-nio-8080-exec-1] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:24:14,476 DEBUG c.e.d.UserService [http-nio-8080-exec-1] User details validated successfully for: testuser
+2025-08-27 17:24:14,476 INFO c.e.d.UserService [http-nio-8080-exec-1] User created successfully. ID: user_1756315454476, Username: testuser
+2025-08-27 17:24:14,476 INFO c.e.d.UserController [http-nio-8080-exec-1] Request completed successfully for user: testuser
+2025-08-27 17:30:31,971 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 17:30:31,974 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-27 17:32:02,807 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Starting DemoApplication using Java 17.0.7 with PID 16831 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27 17:32:02,809 DEBUG o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 17:32:02,810 INFO o.s.b.SpringApplication [com.example.demo.DemoApplication.main()] No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:32:03,332 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat initialized with port 8080 (http)
+2025-08-27 17:32:03,338 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:32:03,340 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting service [Tomcat]
+2025-08-27 17:32:03,340 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 17:32:03,362 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing Spring embedded WebApplicationContext
+2025-08-27 17:32:03,364 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [com.example.demo.DemoApplication.main()] Root WebApplicationContext: initialization completed in 532 ms
+2025-08-27 17:32:03,613 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:32:03,624 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat started on port 8080 (http) with context path '/'
+2025-08-27 17:32:03,632 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Started DemoApplication in 1.144 seconds (process running for 2.548)
+2025-08-27 17:32:17,159 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27 17:32:17,159 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-27 17:32:17,160 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-08-27 17:32:17,179 INFO c.e.d.UserController [http-nio-8080-exec-1] Received request to create user: testuser
+2025-08-27 17:32:17,183 INFO c.e.d.LoggingAspect [http-nio-8080-exec-1] ➡️ Вызов метода: UserService.createUser(..) с аргументами: [testuser, testuser@example.com]
+2025-08-27 17:32:17,183 INFO c.e.d.UserService [http-nio-8080-exec-1] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:32:17,184 DEBUG c.e.d.UserService [http-nio-8080-exec-1] User details validated successfully for: testuser
+2025-08-27 17:32:17,184 INFO c.e.d.UserService [http-nio-8080-exec-1] User created successfully. ID: user_1756315937184, Username: testuser
+2025-08-27 17:32:17,184 INFO c.e.d.LoggingAspect [http-nio-8080-exec-1] ✅ Метод: UserService.createUser(..) выполнен успешно за 1 мс. Результат: user_1756315937184
+2025-08-27 17:32:17,184 INFO c.e.d.UserController [http-nio-8080-exec-1] Request completed successfully for user: testuser
+2025-08-27 17:35:49,094 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 17:35:49,101 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-27 17:35:52,411 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Starting DemoApplication using Java 17.0.7 with PID 18659 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27 17:35:52,413 DEBUG o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 17:35:52,414 INFO o.s.b.SpringApplication [com.example.demo.DemoApplication.main()] No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:35:53,156 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat initialized with port 8080 (http)
+2025-08-27 17:35:53,162 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:35:53,163 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting service [Tomcat]
+2025-08-27 17:35:53,163 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 17:35:53,183 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing Spring embedded WebApplicationContext
+2025-08-27 17:35:53,184 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [com.example.demo.DemoApplication.main()] Root WebApplicationContext: initialization completed in 732 ms
+2025-08-27 17:35:53,456 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:35:53,466 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat started on port 8080 (http) with context path '/'
+2025-08-27 17:35:53,476 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Started DemoApplication in 1.405 seconds (process running for 2.704)
+2025-08-27 17:35:57,929 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27 17:35:57,930 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-27 17:35:57,930 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2025-08-27 17:35:57,951 INFO c.e.d.UserController [http-nio-8080-exec-1] Received request to create user: testuser
+2025-08-27 17:35:57,952 INFO c.e.d.UserService [http-nio-8080-exec-1] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:35:57,952 DEBUG c.e.d.UserService [http-nio-8080-exec-1] User details validated successfully for: testuser
+2025-08-27 17:35:57,953 INFO c.e.d.UserService [http-nio-8080-exec-1] User created successfully. ID: user_1756316157953, Username: testuser
+2025-08-27 17:35:57,953 INFO c.e.d.UserController [http-nio-8080-exec-1] Request completed successfully for user: testuser
+2025-08-27 17:35:57,970 INFO c.e.d.UserController2 [http-nio-8080-exec-2] Received request to create user: testuser2
+2025-08-27 17:35:57,972 INFO c.e.d.LoggingAspect [http-nio-8080-exec-2] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:35:57,973 INFO c.e.d.LoggingAspect [http-nio-8080-exec-2] ✅ Метод: UserService.createUser2(..) выполнен успешно за 0 мс. Результат: user_1756316157973
+2025-08-27 17:35:57,973 INFO c.e.d.UserController2 [http-nio-8080-exec-2] Request completed successfully for user: testuser2
+2025-08-27 17:36:11,312 INFO c.e.d.UserController [http-nio-8080-exec-3] Received request to create user: testuser
+2025-08-27 17:36:11,312 INFO c.e.d.UserService [http-nio-8080-exec-3] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:36:11,313 DEBUG c.e.d.UserService [http-nio-8080-exec-3] User details validated successfully for: testuser
+2025-08-27 17:36:11,313 INFO c.e.d.UserService [http-nio-8080-exec-3] User created successfully. ID: user_1756316171313, Username: testuser
+2025-08-27 17:36:11,314 INFO c.e.d.UserController [http-nio-8080-exec-3] Request completed successfully for user: testuser
+2025-08-27 17:36:11,325 INFO c.e.d.UserController2 [http-nio-8080-exec-4] Received request to create user: testuser2
+2025-08-27 17:36:11,326 INFO c.e.d.LoggingAspect [http-nio-8080-exec-4] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:36:11,326 INFO c.e.d.LoggingAspect [http-nio-8080-exec-4] ✅ Метод: UserService.createUser2(..) выполнен успешно за 0 мс. Результат: user_1756316171326
+2025-08-27 17:36:11,327 INFO c.e.d.UserController2 [http-nio-8080-exec-4] Request completed successfully for user: testuser2
+2025-08-27 17:39:08,508 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 17:39:08,516 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-27 17:39:10,997 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Starting DemoApplication using Java 17.0.7 with PID 20484 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27 17:39:10,999 INFO o.s.b.SpringApplication [com.example.demo.DemoApplication.main()] No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:39:11,608 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat initialized with port 8080 (http)
+2025-08-27 17:39:11,616 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:39:11,617 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting service [Tomcat]
+2025-08-27 17:39:11,618 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 17:39:11,640 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing Spring embedded WebApplicationContext
+2025-08-27 17:39:11,641 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [com.example.demo.DemoApplication.main()] Root WebApplicationContext: initialization completed in 600 ms
+2025-08-27 17:39:12,034 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:39:12,049 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat started on port 8080 (http) with context path '/'
+2025-08-27 17:39:12,060 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Started DemoApplication in 1.388 seconds (process running for 2.788)
+2025-08-27 17:39:13,736 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27 17:39:13,737 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-27 17:39:13,737 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2025-08-27 17:39:13,761 INFO c.e.d.UserService [http-nio-8080-exec-1] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:39:13,762 INFO c.e.d.UserService [http-nio-8080-exec-1] User created successfully. ID: user_1756316353762, Username: testuser
+2025-08-27 17:39:13,781 INFO c.e.d.LoggingAspect [http-nio-8080-exec-2] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:39:13,782 INFO c.e.d.LoggingAspect [http-nio-8080-exec-2] ✅ Метод: UserService.createUser2(..) выполнен успешно за 0 мс. Результат: user_1756316353782
+2025-08-27 17:39:16,680 INFO c.e.d.UserService [http-nio-8080-exec-3] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:39:16,681 INFO c.e.d.UserService [http-nio-8080-exec-3] User created successfully. ID: user_1756316356681, Username: testuser
+2025-08-27 17:39:16,698 INFO c.e.d.LoggingAspect [http-nio-8080-exec-4] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:39:16,699 INFO c.e.d.LoggingAspect [http-nio-8080-exec-4] ✅ Метод: UserService.createUser2(..) выполнен успешно за 0 мс. Результат: user_1756316356699
+2025-08-27 17:39:19,066 INFO c.e.d.UserService [http-nio-8080-exec-5] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:39:19,067 INFO c.e.d.UserService [http-nio-8080-exec-5] User created successfully. ID: user_1756316359067, Username: testuser
+2025-08-27 17:39:19,080 INFO c.e.d.LoggingAspect [http-nio-8080-exec-6] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:39:19,081 INFO c.e.d.LoggingAspect [http-nio-8080-exec-6] ✅ Метод: UserService.createUser2(..) выполнен успешно за 0 мс. Результат: user_1756316359081
+2025-08-27 17:39:21,342 INFO c.e.d.UserService [http-nio-8080-exec-7] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:39:21,343 INFO c.e.d.UserService [http-nio-8080-exec-7] User created successfully. ID: user_1756316361343, Username: testuser
+2025-08-27 17:39:21,356 INFO c.e.d.LoggingAspect [http-nio-8080-exec-8] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:39:21,356 INFO c.e.d.LoggingAspect [http-nio-8080-exec-8] ✅ Метод: UserService.createUser2(..) выполнен успешно за 0 мс. Результат: user_1756316361356
+2025-08-27 17:39:43,047 INFO c.e.d.UserService [http-nio-8080-exec-9] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:39:43,048 INFO c.e.d.UserService [http-nio-8080-exec-9] User created successfully. ID: user_1756316383048, Username: testuser
+2025-08-27 17:39:43,065 INFO c.e.d.LoggingAspect [http-nio-8080-exec-10] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:39:43,065 INFO c.e.d.LoggingAspect [http-nio-8080-exec-10] ✅ Метод: UserService.createUser2(..) выполнен успешно за 0 мс. Результат: user_1756316383065
+2025-08-27 17:39:59,529 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 17:39:59,533 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-27 17:40:01,826 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Starting DemoApplication using Java 17.0.7 with PID 21186 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27 17:40:01,828 DEBUG o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 17:40:01,830 INFO o.s.b.SpringApplication [com.example.demo.DemoApplication.main()] No active profile set, falling back to 1 default profile: "default"
+2025-08-27 17:40:02,451 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat initialized with port 8080 (http)
+2025-08-27 17:40:02,457 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:40:02,459 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting service [Tomcat]
+2025-08-27 17:40:02,459 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 17:40:02,480 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Initializing Spring embedded WebApplicationContext
+2025-08-27 17:40:02,481 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [com.example.demo.DemoApplication.main()] Root WebApplicationContext: initialization completed in 628 ms
+2025-08-27 17:40:02,802 INFO o.a.j.l.DirectJDKLog [com.example.demo.DemoApplication.main()] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-27 17:40:02,812 INFO o.s.b.w.e.t.TomcatWebServer [com.example.demo.DemoApplication.main()] Tomcat started on port 8080 (http) with context path '/'
+2025-08-27 17:40:02,820 INFO o.s.b.StartupInfoLogger [com.example.demo.DemoApplication.main()] Started DemoApplication in 1.326 seconds (process running for 2.611)
+2025-08-27 17:40:05,681 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27 17:40:05,681 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-27 17:40:05,682 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-08-27 17:40:05,705 DEBUG c.e.d.UserController [http-nio-8080-exec-1] Received request to create user: testuser
+2025-08-27 17:40:05,707 INFO c.e.d.UserService [http-nio-8080-exec-1] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:40:05,708 DEBUG c.e.d.UserService [http-nio-8080-exec-1] User details validated successfully for: testuser
+2025-08-27 17:40:05,708 INFO c.e.d.UserService [http-nio-8080-exec-1] User created successfully. ID: user_1756316405708, Username: testuser
+2025-08-27 17:40:05,708 DEBUG c.e.d.UserController [http-nio-8080-exec-1] Request completed successfully for user: testuser
+2025-08-27 17:40:05,735 DEBUG c.e.d.UserController2 [http-nio-8080-exec-2] Received request to create user: testuser2
+2025-08-27 17:40:05,740 INFO c.e.d.LoggingAspect [http-nio-8080-exec-2] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:40:05,742 INFO c.e.d.LoggingAspect [http-nio-8080-exec-2] ✅ Метод: UserService.createUser2(..) выполнен успешно за 1 мс. Результат: user_1756316405741
+2025-08-27 17:40:05,742 DEBUG c.e.d.UserController2 [http-nio-8080-exec-2] Request completed successfully for user: testuser2
+2025-08-27 17:40:18,312 DEBUG c.e.d.UserController [http-nio-8080-exec-3] Received request to create user: testuser
+2025-08-27 17:40:18,312 INFO c.e.d.UserService [http-nio-8080-exec-3] Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27 17:40:18,312 DEBUG c.e.d.UserService [http-nio-8080-exec-3] User details validated successfully for: testuser
+2025-08-27 17:40:18,313 INFO c.e.d.UserService [http-nio-8080-exec-3] User created successfully. ID: user_1756316418313, Username: testuser
+2025-08-27 17:40:18,313 DEBUG c.e.d.UserController [http-nio-8080-exec-3] Request completed successfully for user: testuser
+2025-08-27 17:40:18,324 DEBUG c.e.d.UserController2 [http-nio-8080-exec-5] Received request to create user: testuser2
+2025-08-27 17:40:18,325 INFO c.e.d.LoggingAspect [http-nio-8080-exec-5] ➡️ Вызов метода: UserService.createUser2(..) с аргументами: [testuser2, testuser2@example.com]
+2025-08-27 17:40:18,327 INFO c.e.d.LoggingAspect [http-nio-8080-exec-5] ✅ Метод: UserService.createUser2(..) выполнен успешно за 0 мс. Результат: user_1756316418327
+2025-08-27 17:40:18,328 DEBUG c.e.d.UserController2 [http-nio-8080-exec-5] Request completed successfully for user: testuser2

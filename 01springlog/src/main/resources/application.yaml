@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG # Уровень для вашего пакета
+    org.springframework.web: INFO
+    com.example.demo: INFO
+  file:
+    name: logs/application.log # Включение записи логов в файл

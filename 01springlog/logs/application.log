@@ -1,0 +1,276 @@
+2025-08-27T16:54:55.821Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 247004 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27T16:54:55.823Z DEBUG 247004 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27T16:54:55.825Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-27T16:54:56.304Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-27T16:54:56.310Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-27T16:54:56.311Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27T16:54:56.327Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-27T16:54:56.327Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 465 ms
+2025-08-27T16:54:56.583Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-27T16:54:56.600Z  INFO 247004 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Started DemoApplication in 1.081 seconds (process running for 2.394)
+2025-08-27T17:00:32.386Z  INFO 247004 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27T17:00:32.390Z  INFO 247004 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-27T17:03:22.147Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 1537 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27T17:03:22.149Z DEBUG 1537 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27T17:03:22.150Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-27T17:03:22.634Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-27T17:03:22.647Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-27T17:03:22.647Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27T17:03:22.682Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-27T17:03:22.683Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 487 ms
+2025-08-27T17:03:22.884Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-27T17:03:22.893Z  INFO 1537 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Started DemoApplication in 1.001 seconds (process running for 13.248)
+2025-08-27T17:05:15.507Z  INFO 1537 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27T17:05:15.507Z  INFO 1537 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-27T17:05:15.508Z  INFO 1537 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-27T17:05:15.518Z  WARN 1537 --- [demo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-08-27T17:05:15.581Z  WARN 1537 --- [demo] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:07:09.301Z  INFO 1537 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27T17:07:09.303Z  INFO 1537 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-27T17:07:11.771Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 3749 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27T17:07:11.773Z DEBUG 3749 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27T17:07:11.774Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-27T17:07:12.333Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-27T17:07:12.347Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-27T17:07:12.347Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27T17:07:12.382Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-27T17:07:12.382Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 566 ms
+2025-08-27T17:07:12.645Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-27T17:07:12.661Z  INFO 3749 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Started DemoApplication in 1.177 seconds (process running for 2.485)
+2025-08-27T17:07:20.323Z  INFO 3749 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27T17:07:20.324Z  INFO 3749 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-27T17:07:20.325Z  INFO 3749 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-27T17:07:20.352Z  WARN 3749 --- [demo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:08:40.848Z  WARN 3749 --- [demo] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:09:07.427Z  WARN 3749 --- [demo] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:09:49.466Z  WARN 3749 --- [demo] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:09:50.587Z  WARN 3749 --- [demo] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:09:51.280Z  WARN 3749 --- [demo] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:09:51.834Z  WARN 3749 --- [demo] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:09:52.321Z  WARN 3749 --- [demo] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:10:13.734Z  INFO 3749 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27T17:10:13.739Z  INFO 3749 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-27T17:10:24.475Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 5761 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27T17:10:24.476Z DEBUG 5761 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27T17:10:24.477Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-27T17:10:24.918Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-27T17:10:24.925Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-27T17:10:24.925Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27T17:10:24.943Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-27T17:10:24.943Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 445 ms
+2025-08-27T17:10:25.156Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-27T17:10:25.171Z  INFO 5761 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Started DemoApplication in 0.942 seconds (process running for 2.229)
+2025-08-27T17:10:34.544Z  INFO 5761 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27T17:10:34.544Z  INFO 5761 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-27T17:10:34.545Z  INFO 5761 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-27T17:10:34.566Z  WARN 5761 --- [demo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:11:11.179Z  INFO 5761 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27T17:11:11.184Z  INFO 5761 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-27T17:11:24.137Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 6485 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27T17:11:24.140Z DEBUG 6485 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27T17:11:24.141Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-27T17:11:24.647Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-27T17:11:24.654Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-27T17:11:24.655Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27T17:11:24.681Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-27T17:11:24.682Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 500 ms
+2025-08-27T17:11:24.944Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-27T17:11:24.954Z  INFO 6485 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Started DemoApplication in 1.111 seconds (process running for 2.447)
+2025-08-27T17:11:28.604Z  INFO 6485 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27T17:11:28.604Z  INFO 6485 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-27T17:11:28.605Z  INFO 6485 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-27T17:11:38.975Z  INFO 6485 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27T17:11:38.980Z  INFO 6485 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-27T17:11:45.020Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 6922 (/workspaces/springapps/01springlog/target/classes started by vscode in /workspaces/springapps/01springlog)
+2025-08-27T17:11:45.022Z DEBUG 6922 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27T17:11:45.022Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-27T17:11:45.509Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-27T17:11:45.516Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-27T17:11:45.516Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27T17:11:45.533Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-27T17:11:45.533Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 479 ms
+2025-08-27T17:11:45.795Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-27T17:11:45.811Z  INFO 6922 --- [demo] [com.example.demo.DemoApplication.main()] com.example.demo.DemoApplication         : Started DemoApplication in 1.04 seconds (process running for 2.456)
+2025-08-27T17:11:47.512Z  INFO 6922 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27T17:11:47.512Z  INFO 6922 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-27T17:11:47.512Z  INFO 6922 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-27T17:11:47.532Z  WARN 6922 --- [demo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-08-27T17:14:14.959Z  INFO 6922 --- [demo] [http-nio-8080-exec-2] com.example.demo.UserController          : Received request to create user: testuser
+2025-08-27T17:14:14.960Z  INFO 6922 --- [demo] [http-nio-8080-exec-2] com.example.demo.UserService             : Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27T17:14:14.960Z DEBUG 6922 --- [demo] [http-nio-8080-exec-2] com.example.demo.UserService             : User details validated successfully for: testuser
+2025-08-27T17:14:14.960Z  INFO 6922 --- [demo] [http-nio-8080-exec-2] com.example.demo.UserService             : User created successfully. ID: user_1756314854960, Username: testuser
+2025-08-27T17:14:14.960Z  INFO 6922 --- [demo] [http-nio-8080-exec-2] com.example.demo.UserController          : Request completed successfully for user: testuser
+2025-08-27T17:14:27.612Z  INFO 6922 --- [demo] [http-nio-8080-exec-3] com.example.demo.UserController          : Received request to create user: testuser
+2025-08-27T17:14:27.612Z  INFO 6922 --- [demo] [http-nio-8080-exec-3] com.example.demo.UserService             : Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27T17:14:27.612Z DEBUG 6922 --- [demo] [http-nio-8080-exec-3] com.example.demo.UserService             : User details validated successfully for: testuser
+2025-08-27T17:14:27.613Z  INFO 6922 --- [demo] [http-nio-8080-exec-3] com.example.demo.UserService             : User created successfully. ID: user_1756314867613, Username: testuser
+2025-08-27T17:14:27.613Z  INFO 6922 --- [demo] [http-nio-8080-exec-3] com.example.demo.UserController          : Request completed successfully for user: testuser
+2025-08-27T17:14:28.415Z  INFO 6922 --- [demo] [http-nio-8080-exec-4] com.example.demo.UserController          : Received request to create user: testuser
+2025-08-27T17:14:28.415Z  INFO 6922 --- [demo] [http-nio-8080-exec-4] com.example.demo.UserService             : Attempting to create user: testuser, Email: testuser@example.com
+2025-08-27T17:14:28.416Z DEBUG 6922 --- [demo] [http-nio-8080-exec-4] com.example.demo.UserService             : User details validated successfully for: testuser
+2025-08-27T17:14:28.416Z  INFO 6922 --- [demo] [http-nio-8080-exec-4] com.example.demo.UserService             : User created successfully. ID: user_1756314868416, Username: testuser
+2025-08-27T17:14:28.416Z  INFO 6922 --- [demo] [http-nio-8080-exec-4] com.example.demo.UserController          : Request completed successfully for user: testuser
+2025-08-27T17:16:50.106Z  INFO 6922 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27T17:16:50.114Z  INFO 6922 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-27 17:16:55.636 [com.example.demo.DemoApplication.main()] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2cdda62a - A "org.springframework.boot.logging.logback.ColorConverter" object is not assignable to a "ch.qos.logback.core.Layout" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2cdda62a - The class "ch.qos.logback.core.Layout" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2cdda62a - [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@f91da5e] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2cdda62a - "org.springframework.boot.logging.logback.ColorConverter" was loaded by [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@f91da5e].
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:371)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:360)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:280)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2cdda62a - A "org.springframework.boot.logging.logback.ColorConverter" object is not assignable to a "ch.qos.logback.core.Layout" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2cdda62a - The class "ch.qos.logback.core.Layout" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2cdda62a - [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@f91da5e] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2cdda62a - "org.springframework.boot.logging.logback.ColorConverter" was loaded by [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@f91da5e].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:289)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:267)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:61)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:195)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 23 common frames omitted
+2025-08-27 17:17:51.880 [com.example.demo.DemoApplication.main()] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@48cc3503 - A "org.springframework.boot.logging.logback.ColorConverter" object is not assignable to a "ch.qos.logback.core.Layout" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@48cc3503 - The class "ch.qos.logback.core.Layout" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@48cc3503 - [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@14823f76] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@48cc3503 - "org.springframework.boot.logging.logback.ColorConverter" was loaded by [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@14823f76].
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:371)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:360)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:280)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@48cc3503 - A "org.springframework.boot.logging.logback.ColorConverter" object is not assignable to a "ch.qos.logback.core.Layout" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@48cc3503 - The class "ch.qos.logback.core.Layout" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@48cc3503 - [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@14823f76] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@48cc3503 - "org.springframework.boot.logging.logback.ColorConverter" was loaded by [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@14823f76].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:289)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:267)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:61)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:195)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 23 common frames omitted
+2025-08-27 17:18:50.355 [com.example.demo.DemoApplication.main()] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@204f01bd - A "org.springframework.boot.logging.logback.ColorConverter" object is not assignable to a "ch.qos.logback.core.Layout" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@204f01bd - The class "ch.qos.logback.core.Layout" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@204f01bd - [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@48840594] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@204f01bd - "org.springframework.boot.logging.logback.ColorConverter" was loaded by [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@48840594].
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:371)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:360)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:280)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@204f01bd - A "org.springframework.boot.logging.logback.ColorConverter" object is not assignable to a "ch.qos.logback.core.Layout" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@204f01bd - The class "ch.qos.logback.core.Layout" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@204f01bd - [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@48840594] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@204f01bd - "org.springframework.boot.logging.logback.ColorConverter" was loaded by [org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@48840594].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:289)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:267)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:61)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:195)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 23 common frames omitted
+2025-08-27 17:20:26.889 [com.example.demo.DemoApplication.main()] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.model.processor.ImplicitModelHandler - Could not find an appropriate class for property [layout]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:371)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:360)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:280)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.model.processor.ImplicitModelHandler - Could not find an appropriate class for property [layout]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:289)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:267)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:61)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:195)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 23 common frames omitted
